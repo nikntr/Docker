@@ -1,0 +1,6 @@
+version: '3.8'
+service:
+  web:
+   build: .
+   port:
+    -"5000:5000"
